@@ -3,4 +3,6 @@ def square_array(array)
   array_output = Array.new
   array.each do |element| array_output[array_output.size] = (element * element) end
   
+  return array_output
+  
 end
